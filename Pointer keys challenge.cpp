@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
-
-int main() {
+int main(){
 
   int age1 = 12;
   int age2 = 31;
@@ -10,20 +9,16 @@ int main() {
   int* bob;
   int** carol;
   
-  //add code below this line
   amy= &age1;
   bob= &age2;
   *carol= &age3;
 
   cout<<"Amy's age is: ";
-  cout << *amy << endl; //do not edit
+  cout << *amy << endl; 
   cout<<"Bob's age is: ";
-  cout << *bob << endl; //do not edit
+  cout << *bob << endl; 
   cout<<"Carol's age is: ";
-  cout << **carol << endl; //do not edit
-  
-  
-  //add code above this line 
+  cout << **carol << endl;
   
   return 0;
   
