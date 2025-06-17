@@ -4,16 +4,12 @@
 #include <sstream>
 #include <iomanip>
 using namespace std;
-
 int main(int argc, char** argv) {
-
 ////////// DO NOT EDIT! //////////
   string path = argv[1];        //
 //////////////////////////////////  
   
   //add code below this line
-
-
   ifstream file(path);
   if (!file) {
     cerr << "Error: Unable to open file." << endl;
